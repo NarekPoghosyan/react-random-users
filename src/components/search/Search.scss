@@ -1,0 +1,29 @@
+.search_user {
+    display: flex;
+    margin-left: 20px;
+        
+        input {
+        outline: none;
+        display: flex;
+        align-items: center;
+        font-weight: normal;
+        font-style: normal;
+        font-family: PT SANS;
+        background: #FFFFFF;
+        border: 1px solid #75BEEE;
+        border-radius: 3px;
+        padding-left: 12px;
+        width: 100%;
+        height: 40px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+}
+
+@media (min-width: 100px) and (max-width: 767px) {
+    .search_user {
+        margin-left: 0;
+    }
+
+}
